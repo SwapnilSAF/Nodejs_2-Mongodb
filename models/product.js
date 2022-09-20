@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema; //schema is constructore here & that allows to create new Schema
 
+//defining new Schema
 const productSchema = new Schema({
   title: {
     type: String,
